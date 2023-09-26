@@ -1,3 +1,9 @@
+html {
+    --scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+
 body {
     margin: 0;
     padding:0;
@@ -8,8 +14,7 @@ header{
     display: flex;
     align-items: center;
     gap: 5%;
-    background-color: #FFF8EA;
-    border-bottom: 5px solid black;
+    background-color: #f4f4f4;
 }
 
 header h1{
@@ -21,8 +26,8 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 12%;
-    margin-left: 220px;
+    gap: 18%;
+    margin-left: 380px;
 
 }
 
@@ -32,7 +37,7 @@ ul li {
 }
 
 a {
-    color: #618264;
+    color: black;
     text-decoration: none;
 }
 
@@ -45,13 +50,17 @@ a :hover {
     flex-direction: row;
     margin-top: 40px;
     margin-bottom: 50px;
-    background-color: #9E7676;
+    background-color: white;
 }
 
 .about-container h2 {
-    border-bottom: 4px solid;
+    
     width: 30%;
     margin-bottom: 1%;
+}
+
+.about-container p {
+    color: black;
 }
 
 .about-container img {
@@ -68,8 +77,164 @@ a :hover {
 
 }
 
+.parcours {
+    background-color: #f4f4f4;
+}
+
 .parcours-h2 {
     display: flex;
     justify-content: center;
     color: black;
+}
+
+.h2-frise {
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer{
+    background-color: #f4f4f4;
+   
+}
+
+footer h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+footer a {
+    margin-left: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.soft-h2{
+    display: flex;
+    justify-content: center;
+}
+
+.soft-flex{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.quality-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4%;
+    margin-bottom: 40px;
+}
+
+.text-down{
+    margin-top: 80px;
+}
+
+.flex-circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:4%;
+}
+
+.english-circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.english-circle p {
+    width: 300px;
+}
+
+.spanish-circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article img{
+    width: 30%;
+}
+
+.passions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.flex-passions article {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-passions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card{
+    width:70%;
+}
+
+.card p {
+    width: 70%;
+    text-align: center;
+}
+
+.card img {
+    width: 60%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.passions2{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.passions2 p {
+    text-align: center;
+}
+
+.flex-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.wrap-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-buttons h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-buttons a {
+    
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    padding: 10px;
 }
